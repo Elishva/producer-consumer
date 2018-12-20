@@ -32,7 +32,7 @@ int produce_item()
 
 void consume_item(int item)
 {
-   printf("-------In consume item------ %d \n" , item);
+   printf("-------In consume item------ \n" );
 }
 
 
@@ -50,7 +50,7 @@ int remove_item()
 {
    int index = count;
    count--;
-   printf("-------after remove item------\n");
+   printf("-------after remove item------  \n ");
    return boxes[index];
 }
 
